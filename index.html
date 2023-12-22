@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;400;600&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;400;600&family=Open+Sans&display=swap" rel="stylesheet">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+</head>
+<body>
+    <section>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand">
+
+                <img class="logo1 navbar-brand" src="images/logo.svg" alt="logo">
+                
+                    <div class="navbar ml-auto">
+                
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="links-nav nav-link" href="#details">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="links-nav nav-link" href="#footer">Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="links-nav nav-link" href="#sign-in">Sign-in</a>
+                            </li>
+                        </ul>
+                
+                    </div>
+                
+                </nav>
+                
+                <div class="row intro flex-row-reverse">
+
+                    <div class="col-lg-6"><img class="first-ilustration" src="images/illustration-1.svg" alt=""></div>
+                        
+                    <div class="first-column col-lg-6">
+                            <h2>All your files in one secure location, accessible anywhere.</h2>
+
+                            <p>Fylo stores your most important files in one secure location. 
+                                Access them wherever you need, share and collaborate with friends, 
+                                family, and co-workers.
+                            </p>
+                             
+                            <div>
+
+                                <form class="control">
+                                    <label for="inputEmail" class="sr-only">Please check your email</label>
+                                    <input type="email" class="form-control email-address2" placeholder="Enter your email..." required autofocus>
+
+                                    <button class="btn btn-primary first-button" type="submit">Get started</button>
+                                </form>
+
+                            </div>
+
+                                
+                    </div>
+                    
+                </div>
+        </div>
+    </section>
+
+    <section id="details">
+        
+        <div class="first-cont">
+            <img class="bg-image" src="images/bg-curve-desktop.svg" alt="bg-curve-desktop">
+        </div>
+
+        <div class="second-cont container-fluid">
+            
+            <div class="row flex-row-reverse">
+
+                <div class="col-lg-6"><img class="second-illustration" src="images/illustration-2.svg" alt="illustration-2 "></div>
+
+                <div class="second-column col-lg-6">
+                    <h2 class="stay">Stay productive, wherever you are</h2>
+
+                    <p class="text left">Never let location be an issue when accessing your files. Fylo has you 
+                        covered for all of your file storage needs.
+                    </p>
+                      
+                    <p class="left">Securely share files and folders with friends, family and colleagues for 
+                        live collaboration. No email attachments required!
+                    </p>
+
+                    <a class="fylo" href="">See how Fylo works <img src="images/icon-arrow.svg" alt="icon-arrow"></a>
+
+                    <div class="third-cont">
+
+                        <img class="icon-quotes" src="images/icon-quotes.svg" alt="icon-quotes">
+                        <p class="first-text">Fylo has improved our team productivity by an order of magnitude. Since 
+                            making the switch our team has become a well-oiled collaboration machine.
+                        </p>
+                        <div class="info">
+                            <div>
+                                <img class="avatar" src="images/avatar-testimonial.jpg" alt="avatar-testimonial">
+                                <span class="avatar-name"><span class="kyle"><h5>Kyle Burton</h5></span> Founder & CEO, Huddle</span>
+                            </div>
+
+                            
+                        </div>    
+                    </div>
+
+
+                </div>
+                
+    
+            </div>
+        </div>
+    </section>
+
+    <section id="sign-in">
+
+        <div class="fourth-cont container-fluid">
+
+            <div class="row">
+
+                <div class="third-column col-lg-6">
+                    <h3>Get early access today</h3>
+
+                    <p>It only takes a minute to sign up and our free starter tier is extremely generous. 
+                        If you have any questions, our support team would be happy to help you.
+                    </p>
+                      
+                </div>
+
+                <div class="fourth-column col-lg-6">  
+
+                    <form>
+                            <label for="inputEmail" class="sr-only">Email address</label>
+                            <input type="email" id="inputEmail" class="form-control email-address" placeholder="email@example.com" required autofocus>
+                            
+                            <button class="btn btn-primary second-button" type="submit">Get started for free</button>
+                    </form>        
+                </div>
+            </div>
+                  
+        </div>
+
+    </section>
+
+    <section id="footer">
+        <div class="fifth-cont container-fluid">
+            <img class="logo" src="images/logo (2).svg" alt="logo2">
+
+            <div class="sixth-cont row">
+
+                <div class="col-lg-3">
+                    <p><img src="images/icon-phone.svg" alt="icon-phone"> Phone: +1-543-123-4567</p>    
+                    <p><img src="images/icon-email.svg" alt="icon-email"> example@fylo.com</p>
+                </div>
+
+                <div class="col-lg-3">
+                    <p><a class="links" href="">About Us</a></p>
+                    <p><a class="links" href="">Jobs</a></p>
+                    <p><a class="links" href="">Press</a></p>
+                    <p><a class="links" href="">Blog</a></p>
+                </div>
+
+                <div class="col-lg-3">
+                    <p><a class="links" href="">Contact Us</a></p>
+                    <p><a class="links" href="">Terms</a></p>
+                    <p><a class="links" href="">Privacy</a></p>
+                </div>
+
+                <div class="col-lg-3">
+                        
+                    <a class="links social-icon face btn btn-outline-light" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="links social-icon twit btn btn-outline-light" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="links social-icon btn btn-outline-light" href=""><i class="fab fa-instagram"></i></a>
+
+                </div>
+
+            </div>
+              
+        </div>
+    </section>
+
+    <footer>
+        <p class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="mailto:olaniyiezekiel212@gmail.com">Olaniyi Ezekiel</a>.
+        </p>
+    </footer>
+    
+</body>
+</html>
