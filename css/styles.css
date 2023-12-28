@@ -23,7 +23,12 @@ h2 {
 
 h3 {
     color: hsl(240, 75%, 98%);
-    font-weight: 400;
+    font-weight: 600;
+}
+
+/* Navbar */
+.bar {
+    padding-top: 2rem;
 }
 
 /* Columns */
@@ -37,6 +42,10 @@ h3 {
 
 .fourth-column {
     padding: 6% 5% 5%;
+}
+
+.rows {
+    padding: 2rem 0 2rem 0;
 }
 
 /* Container-Divs */
@@ -65,6 +74,7 @@ h3 {
 .fifth-cont {
     background: hsl(243, 87%, 12%);
     color: hsl(0, 0%, 75%);
+    padding-top: 2rem;
 }
 
 .sixth-cont {
@@ -175,6 +185,10 @@ h3 {
     display: inline;
 }
 
+.form-control:focus {
+    box-shadow: none;
+}
+
 .control {
     display: inline;
 }
@@ -225,6 +239,10 @@ h3 {
 @media (max-width: 991px) {
     body {
         text-align: center;
+    }
+
+    .p {
+        padding-top: 1rem;
     }
 
     #footer {
@@ -286,6 +304,13 @@ h3 {
 
     .sixth-cont {
         color: white;
+    }
+
+    .social {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        justify-content: center;
+        text-align: center;
     }
 
     .third-column {
